@@ -45,5 +45,5 @@ module dlatch1;
     $dumpfile("dump.vcd");
     $dumpvars(0,dlatch1);
   end
-```
 endmodule
+```
