@@ -13,7 +13,7 @@ module half_adder(input a,b,
 endmodule
 	
 ```
-## Full Adder
+### Full Adder
 ```
 module full_adder(a_in,
                   b_in,
