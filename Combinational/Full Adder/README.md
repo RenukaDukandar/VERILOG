@@ -72,7 +72,8 @@ full_adder DUT(.a_in(a),.b_in(b),.c_in(cin),.sum_out(sum),.carry_out(carry));
       $monitor("Input a=%b, b=%b, c=%b, Output sum =%b, carry=%b",a,b,cin,sum,carry);
 									
    //Process to terminate simulation after 100ns
-   initial #100 $finish;
+   initial
+       #100 $finish;
 			  
 endmodule
 ```
