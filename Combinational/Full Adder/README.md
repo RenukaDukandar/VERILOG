@@ -1,8 +1,7 @@
 # Full Adder using Half Adder
 ## DESIGN
+#### Half Adder
 ```
-### Half Adder
-
 module half_adder(input a,b,
 	          output sum,carry);
 				 
@@ -13,7 +12,7 @@ module half_adder(input a,b,
 endmodule
 	
 ```
-### Full Adder
+#### Full Adder
 ```
 module full_adder(a_in,
                   b_in,
