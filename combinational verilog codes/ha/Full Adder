@@ -1,5 +1,4 @@
 # Full Adder using Half Adder
-
 ## DESIGN
 ```
 ### Half Adder
@@ -77,8 +76,7 @@ full_adder DUT(.a_in(a),.b_in(b),.c_in(cin),.sum_out(sum),.carry_out(carry));
 									
    //Process to terminate simulation after 100ns
    initial #100 $finish;
-			
-   
+			  
 endmodule
 ```
 
